@@ -45,10 +45,12 @@ src => tailwind.css
 ## 4 - Configuration de tailwind
 **Ajouter** dans tailwind.config.js : 
 
-`module.exports = {
+```
+module.exports = {
   content: [
     './public/*.{html,js}',
-  ],`
+  ],
+```
 
 **Run** : `npm run build`
 
@@ -57,14 +59,17 @@ src => tailwind.css
 
 dans tailwind.conf.js rajouter >
 
-``module.exports = {
+```
+module.exports = {
   //...
   plugins: [require("daisyui")],
-}``
+}
+```
 
 ## 6 - Page index de test
 
-``<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
@@ -81,4 +86,5 @@ dans tailwind.conf.js rajouter >
     <div class="text-green-900 uppercase text-center font-extrabold">Si ce texte est centré vert et gras alors </div>
     <div class="text-green-900 uppercase text-center font-extrabold">TailWinds est pret !</div>
 </body>
-</html>``
+</html>
+```
